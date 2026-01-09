@@ -26,12 +26,12 @@ Hyperactivated (T/F)- Indicates if a sperm is hyperactive or not pased on predet
 
 
 # Summary Tab Information
-Rapid Progressive- % of sperm whos Linearity is greater than 0.5 and VAP is greater than 50  
+Rapid Progressive- % of sperm whose Linearity is greater than 0.5 and VAP is greater than 50  
 
-Medium Progressive- % of sperm whos Linearity is less than 0.5 and VAP is greater than 25 but less than 50  
+Medium Progressive- % of sperm whose Linearity is less than 0.5 and VAP is greater than 25 but less than 50  
 
-Non-Progressive- % of sperm whos VAP is greater than 5 but less than 25, and whos VSL is less than 25 or Linearity is less than 0.5  
+Non-Progressive- % of sperm whose VAP is greater than 5 but less than 25, and whose VSL is less than 25 or Linearity is less than 0.5  
 
-Hyperactivated- % of sperm whos linearity is less than 0.5 and VCL is greater than 100.  
+Hyperactivated- % of sperm whose linearity is less than 0.5 and VCL is greater than 100.  
 
 These categorizations show up both as total counts and percentages of the total population.
