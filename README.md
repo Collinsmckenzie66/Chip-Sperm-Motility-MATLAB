@@ -3,6 +3,8 @@ contains current MATLAB script that takes spot info from trackmate and outputs e
 
 This script uses the simple moving average smoothing method to calculate the average path of the sperm, something track mate can not calculate. VSL and VCL readings calculated through this script are exactly the same as the ones track mate produces. This script also generates Straightness and Wobble measurements, also unique to this script compared to track mate.
 
+The output of this code is motility result excels for each file of the folder input, and a summary file that summarizes every excel file in the folder input.
+
 # Information on Track Excel Outputs
 TrackID- unique track identifier  
 
@@ -22,15 +24,15 @@ Straightness (%)- VSL/VAP; Measure of the directness of a track. Higher numbers 
 
 Wobble (%)- VAP/VCL; Measures erractness or sideways movement of a track. Higher numbers= correlation with defective sperm.  
 
-Hyperactivated (T/F)- Indicates if a sperm is hyperactive or not pased on predetermined parameters  
+Hyperactivated (T/F)- Indicates if a sperm is hyperactive or not pased on predetermined parameters specific for chip culture.(VCL >100, LIN <0.5)
 
 
 # Summary Tab Information
-Rapid Progressive- % of sperm whose Linearity is greater than 0.5 and VAP is greater than 50  
+Rapid Progressive- % of sperm whose VAP is greater than 25  
 
-Medium Progressive- % of sperm whose Linearity is less than 0.5 and VAP is greater than 25 but less than 50  
+Medium Progressive- % of sperm whose VAP is greater than 5 but less than 25 
 
-Non-Progressive- % of sperm whose VAP is greater than 5 but less than 25, and whose VSL is less than 25 or Linearity is less than 0.5  
+Non-Progressive- % of sperm whose VAP is greater than 1 but less than 5
 
 Hyperactivated- % of sperm whose linearity is less than 0.5 and VCL is greater than 100.  
 
