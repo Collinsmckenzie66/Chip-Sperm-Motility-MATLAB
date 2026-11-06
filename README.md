@@ -36,7 +36,7 @@ Non-Progressive- % of sperm whose VAP is greater than 1 but less than 5
 
 Hyperactivated- % of sperm whose linearity is less than 0.5 and VCL is greater than 100.  
 
-These categorizations show up both as total counts and percentages of the total population.
+These categorizations show up both as total counts and percentages of the total population. Hyperactivation % is based on the total amount of motile sperm (Total Hyperactivated/Total Motile Sperm)
 
 # Installation Information 
 Download the script and drag it into your MATLAB folder for easiest access. When run, the script will ask you for a folder to choose where your spot data is. The file it produces should return to original folder you selected as the original file name with "results_" proceeding it.
